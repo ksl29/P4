@@ -1,3 +1,4 @@
+<!-- DEVELOPER: Kadeem Lewis, IS117-001, Fall 20120 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,80 +11,139 @@
 
 </head>
 <body>
-    <main>
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+        <main>
+            <header>   
+            <nav class="navbar navbar-expand-lg sticky-top">  
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/jojologo.png" class="logo img-fluid">
+                </a>
+                <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon navbar-dark"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
-                    <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                    </li>
                     <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown link
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Parts
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Phantom Blood</a>
+                            <a class="dropdown-item" href="#">Battle Tendency</a>
+                            <a class="dropdown-item" href="#">Stardust Crusaders</a>
+                            <a class="dropdown-item" href="#">Diamond is Unbreakable</a>
+                            <a class="dropdown-item" href="#">Golden Wind</a>
+                        </div>
+                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="watch.html">Watch</a>
+                        </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="contact-us.html">Contact Us</a>
                     </li>
+                    
                 </ul>
                 </div>
             </nav>
         </header>
+        
+    
+            <div class="jumbotron">
+                <h1 class="display-4">JoJo's Bizarre Adventure</h1>
+                <p class="lead">An intergenerational feud between the Joestar Family and various forces of evil, the most prominent of which is Dio Brando and his followers.</p>
+                <hr class="my-4">
+                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+              </div>
         <section>
+            <a href="part-one.html"
+            id="popoverData" class="btn" href="#" 
+                data-content=
+                "The story follows Jonathan Joestar as he matures with and eventually combats his adoptive brother, the cunning and merciless Dio Brando.
+
+                As part of his scheme, Dio torments Jonathan in numerous ways, all while presenting himself before Jonathan's father as a better gentleman and student than his adoptive brother.
+                
+                Dio eventually becomes a vampire, leading to Jonathan fighting him for humanity's sake."
+                 rel="popover" 
+                data-placement="bottom" data-trigger="hover">
             <div class="card-list">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="images/PartOne.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">Phantom Blood</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Part I</h6>
                     </div>
-                </div>
+                </div></a>
+                <a href="part-two.html"
+                id="popoverDataTwo" class="btn" href="#" 
+                data-content=
+                "Taking place in 1938-39, the story follows the misadventures of Joseph Joestar (a.k.a. JoJo), grandson of Jonathan, as he masters his innate Ripple abilities in order to combat hostile, ancient super-beings named the Pillar Men, creators of the Stone Mask that plot to become the ultimate lifeforms.
+
+                Along the way, Joseph trains with other warriors of the Ripple."
+                 rel="popover" 
+                data-placement="bottom" data-trigger="hover">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="images/PartTwo.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">Battle Tendency</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Part II</h6>
+                    
                     </div>
-                </div>
+                </div></a>
+                
+                <a
+                 href="part-three.html" 
+                 id="popoverDataThree" class="btn" href="#" 
+                data-content=
+                "From 1988 to 1989, the story follows Jotaro Kujo and his friends as they journey from Tokyo to Cairo, Egypt, to save the life of his mother, Holy Kujo, by defeating his family's resurrected archenemy, DIO.
+                Jotaro travels with his grandfather, Joseph Joestar, as well as Muhammad Avdol, Noriaki Kakyoin, Jean Pierre Polnareff, and Iggy. The group fights several of DIO's minions and Stand users along the way."
+                 rel="popover" 
+                data-placement="bottom" data-trigger="hover">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="images/PartThree.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">Stardust Crusaders</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Part III</h6>
                     </div>
-                </div>
+                </div></a>
+                 <a href="part-four.html"
+                 id="popoverDataFour" class="btn" href="#" 
+                data-content=
+                "In 1999, an older Jotaro Kujo travels to coastal Morioh, Japan, in order to meet high school freshman Josuke Higashikata who is the illegitimate child of Joseph Joestar. Meanwhile, the Arrow, manifesting latent Stand abilities, travels throughout Morioh; as Josuke and his friends seek out the culprits of a series of homicides."
+                 rel="popover" 
+                data-placement="bottom" data-trigger="hover">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="images/PartFour.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">Diamond is Unbreakable</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Part IV</h6>
+                    </div>
+                </div></a>
+                <a href="part-five.html"
+                id="popoverDataFive" class="btn" href="#" 
+                data-content=
+                "Set in 2001 Italy, the story follows Giorno Giovanna and his dream to rise within the Neapolitan mafia and defeat the boss of Passione, the most powerful and influential gang, in order to become a 'Gang-Star'. With the aid of a capo and his men, and fueled by his own resolve, Giorno sets out to fulfill his goal of absolving the mafia of its corruption."
+                 rel="popover" 
+                data-placement="bottom" data-trigger="hover">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/PartFive.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Vento Aureo</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Part V</h6>
                     </div>
                 </div>
+            </a>
             </div>
         </section>
-        <footer>
-            <p>&copy; Kadeem Lewis,December 1<sup>st</sup> 2020</p>
-        </footer>
     </main>
-
+        <footer class="navbar">
+            <p>&copy; Kadeem Lewis,December 1<sup>st</sup> 2020</p>
+            <a href="ToS.html">Terms of Service</a>
+        </footer>
+    
+    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <script src="js/app.js"></script>
 </body>
 </html>

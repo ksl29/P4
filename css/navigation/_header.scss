@@ -1,0 +1,26 @@
+header {
+  a {
+    color: #eee;
+    font-size: 1rem;
+    font-weight: 400;
+
+    &:hover,
+    &:focus {
+      color: #fff;
+    }
+  }
+}
+
+.navbar img {
+  height: auto;
+  width: auto;
+  max-height: 60px;
+}
+
+.dropdown-menu {
+  background-color: #3c3c3c;
+
+  a {
+    color: #eee;
+  }
+}
