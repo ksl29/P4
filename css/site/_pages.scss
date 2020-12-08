@@ -28,8 +28,14 @@
   }
 }
 
-
 .dropdown-card {
-    width: auto;
-    max-width: 100%;
+  width: auto;
+  max-width: 100%;
+}
+
+input.form-control,
+textarea.form-control {
+  background-color: #3c3c3c;
+  color: #fff;
+  border-color: #000;
 }
