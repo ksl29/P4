@@ -31,6 +31,7 @@ header a:hover, header a:focus {
 
 /*DEVELOPER: Kadeem Lewis, IS117-001, Fall, 2020 */
 footer {
+  margin-top: 2em;
   color: #eee;
   text-align: center;
   display: -webkit-box;
