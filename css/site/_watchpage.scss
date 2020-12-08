@@ -1,0 +1,39 @@
+/*DEVELOPER: Kadeem Lewis, IS117-001, Fall, 2020 */
+#myTab {
+  margin-top: 1em;
+
+  a {
+    color: #eee;
+
+    &:hover,
+    &:focus {
+      color: #fff;
+    }
+  }
+
+  a.active {
+    background-color: #3c3c3c;
+  }
+}
+
+#myTabContent {
+  h4 {
+    text-align: center;
+    margin: 1em;
+  }
+}
+
+.links {
+  margin: auto;
+  width: 70%;
+  h5 {
+    text-align: center;
+    margin: 1em;
+  }
+}
+
+.watch-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 1em;
+}

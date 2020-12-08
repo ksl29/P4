@@ -1,8 +1,10 @@
+/*DEVELOPER: Kadeem Lewis, IS117-001, Fall, 2020 */
 /*
 =======================================================
               Navigation     
 =======================================================
 */
+/*DEVELOPER: Kadeem Lewis, IS117-001, Fall, 2020 */
 header a {
   color: #eee;
   font-size: 1rem;
@@ -27,11 +29,25 @@ header a:hover, header a:focus {
   color: #eee;
 }
 
+/*DEVELOPER: Kadeem Lewis, IS117-001, Fall, 2020 */
 footer {
   color: #eee;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+          flex-direction: column !important;
 }
 
+/*
+=======================================================
+                Body    
+=======================================================
+*/
+/*DEVELOPER: Kadeem Lewis, IS117-001, Fall, 2020 */
 body {
   background: #161616;
   color: #eee;
@@ -68,7 +84,6 @@ main {
   -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 0.25em;
-  margin: 2em auto;
 }
 
 .trailer {
@@ -84,5 +99,82 @@ main {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+/*DEVELOPER: Kadeem Lewis, IS117-001, Fall, 2020 */
+#myTab {
+  margin-top: 1em;
+}
+
+#myTab a {
+  color: #eee;
+}
+
+#myTab a:hover, #myTab a:focus {
+  color: #fff;
+}
+
+#myTab a.active {
+  background-color: #3c3c3c;
+}
+
+#myTabContent h4 {
+  text-align: center;
+  margin: 1em;
+}
+
+.links {
+  margin: auto;
+  width: 70%;
+}
+
+.links h5 {
+  text-align: center;
+  margin: 1em;
+}
+
+.watch-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 1em;
+}
+
+/*DEVELOPER: Kadeem Lewis, IS117-001, Fall, 2020 */
+.character-list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1em;
+}
+
+.character-list .card {
+  border: 1px solid #eee;
+  max-width: 300px;
+}
+
+.character-list .card img {
+  height: auto;
+  width: auto;
+  max-width: 300px;
+}
+
+.list-group-item {
+  background-color: inherit;
+  border-bottom: 1px solid #eee;
+}
+
+.page-desc h4,
+.page-desc h5 {
+  text-align: center;
+}
+
+.dropdown-card {
+  width: auto;
+  max-width: 100%;
 }
 /*# sourceMappingURL=styles.css.map */

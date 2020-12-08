@@ -1,0 +1,35 @@
+/*DEVELOPER: Kadeem Lewis, IS117-001, Fall, 2020 */
+.character-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1em;
+
+  .card {
+    border: 1px solid #eee;
+    max-width: 300px;
+
+    img {
+      height: auto;
+      width: auto;
+      max-width: 300px;
+    }
+  }
+}
+
+.list-group-item {
+  background-color: inherit;
+  border-bottom: 1px solid #eee;
+}
+
+.page-desc {
+  h4,
+  h5 {
+    text-align: center;
+  }
+}
+
+
+.dropdown-card {
+    width: auto;
+    max-width: 100%;
+}
